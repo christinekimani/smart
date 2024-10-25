@@ -15,4 +15,14 @@ def longest_unique_substring(s):
         max_length = max(max_length, right - left + 1)
 
     return max_length  # Return the length of the longest unique substring
-#this needs working its rubbing but not giving output
+def print_longest_unique_substring(s):
+    # Call the longest_unique_substring function and store the result
+    length = longest_unique_substring(s)
+    
+    # Print the result in a clear format
+    print(f"The length of the longest unique substring in '{s}' is {length}.")
+
+# Example usage
+print_longest_unique_substring("whyyyyyyyyyyyyyyy")
+print_longest_unique_substring("heheheheheh")
+print_longest_unique_substring("kimmmmmmmmmmmm")
