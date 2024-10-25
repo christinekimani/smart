@@ -3,7 +3,7 @@ def search_rotated(arr, target):
 
     while left <= right:
         mid = (left + right) // 2  # Calculate the middle index
-        print(f"Left: {left}, Right: {right}, Mid: {mid}, arr[mid]: {arr[mid]}")  # Debug print
+        print(f"Left: {left}, Right: {right}, Mid: {mid}, arr[mid]: {arr[mid]}")  # helps see how the search is going (deburging)
 
         # If the middle element is the target, return its index
         if arr[mid] == target:
