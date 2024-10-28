@@ -1,5 +1,5 @@
 def custom_sort(arr, key):
-    # Use Python's built-in 'sorted' function, sorting by the specified key
+    # Use Python 'sorted' function, sorting by the specified key
     return sorted(arr, key=lambda x: x[key])
 
 # Example usage:

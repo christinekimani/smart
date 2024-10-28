@@ -5,7 +5,7 @@ def longest_unique_substring(s):
 
     # Loop through the string with the right pointer
     for right in range(len(s)):
-        # If the character at 'right' is already in the set, move 'left' pointer
+        #This checks If the character at 'right' is already in the set, move 'left' pointer
         while s[right] in char_set:
             char_set.remove(s[left])
             left += 1  # Move the left pointer to the right

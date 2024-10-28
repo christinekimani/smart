@@ -26,11 +26,11 @@ def search_rotated(arr, target):
 
     return -1  # Return -1 if target is not found
 
-# Example rotated sorted array of letters
+#  sorted array of letters
 rotated_array = ['g', 'h', 'i', 'j', 'k', 'a', 'b', 'c', 'd', 'e', 'f']
 
 # Test cases
-targets = ['d', 'g', 'k', 'x']  # Include a target that does not exist
+targets = ['d', 'g', 'k', 'x'] 
 
 for target in targets:
     index = search_rotated(rotated_array, target)

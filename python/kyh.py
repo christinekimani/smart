@@ -15,7 +15,6 @@ def print_kth_largest(nums, k):
     # Print the result in a clear format
     print(f"The {k}th largest element in {nums} is {result}.")
 
-# Example usage
 nums = [3, 2, 1, 5, 6, 4]
 k = 2
 print_kth_largest(nums, k)
